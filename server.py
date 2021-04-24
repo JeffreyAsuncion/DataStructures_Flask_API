@@ -86,7 +86,8 @@ def get_one_blog_post(blog_post_id):
 def delete_blog_post(blog_post_id):
     pass
 
-
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
 
